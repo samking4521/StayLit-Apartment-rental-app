@@ -1,0 +1,1 @@
+export const STORE_IMAGE_DATA = 'STORE_IMAGE_DATA'

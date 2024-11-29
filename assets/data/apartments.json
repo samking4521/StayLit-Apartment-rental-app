@@ -1,0 +1,164 @@
+[
+    {
+        "id" : "1",
+        "placeType" : "Flat",
+        "ApartmentType" : "4 bedRoom Flat",
+        "ApartmentDesc" : "A 4 bedroom Flat in a safe Friendly Neighbourhood",
+        "shareStatus" : "Shared Apartment",
+        "easeRoom" : {
+            "bathroom" : 2,
+            "bedroom" : 4
+        },
+        "Amenities":{
+            "water": "Running Water", 
+          "electricity":"Electricity", 
+          "security": "Security",
+           "WardRobe" : "Wardrobe" 
+        },
+        "state": "Lagos",
+        "country": "Nigeria",
+        "city": "Abule Egba",
+        "street": "No 42 Jibowu Road",
+        "address": "No 42 Jibowu Road, Abule Egba, Lagos",
+        "Price": "400,000",
+        "duration": "Yearly",
+        "Date_Created": "1 April 2024",
+        "image": ["https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg","https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg","https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg","https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg","https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg"],
+        "lat": 6.632337,
+        "lng": 3.306639,
+        "User": {
+            "name": "Samuel King",
+            "Date_Of_Birth": "12-12-1900",
+            "Religion": "Christianity",
+            "Ethnicity": "Yoruba",
+            "lat": "",
+            "lng": "",
+            "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+            "Occupation": "Engineer"
+
+        },
+        "Agent": {
+            "name": "Andrew Tate",
+            "Religion": "Islam",
+            "Ethnicity": "Yoruba",
+            "Image": "https://static.ffx.io/images/$zoom_2.3309%2C$multiply_0.5855%2C$ratio_1%2C$width_1059%2C$x_678%2C$y_162/t_crop_custom/q_86%2Cf_auto/89dcd9ed59d16f7c77f001daa35c38e30b16c8dc",
+            "Date_Joined": "April 2024",
+            "reviews": "4.5",
+            "Verified_Status": "Verified",
+            "Agent_Desc": "I am Highly commited to ensure people secure a Nice Apartments, in an environment where they can grow and improve.",
+            "Nationality": "British",
+            "Lives_in": "London, England",
+            "languages":"English, Spanish"
+        }
+    },
+    {
+        "id" : "2",
+        "placeType": "Duplex",
+        "ApartmentType" : "7 Bedroom Duplex ",
+        "ApartmentDesc" : "A Well Furnished Newly Built Duplex in a Friendly and Condusive Environment",
+        "state": "Lagos",
+        "city": "Lekki",
+        "shareStatus" : "Entire Apartment",
+        "easeRoom" : {
+            "bathroom" : 3,
+            "bedroom" : 7
+        },
+        "street": "No 16 Admiralty Way",
+        "country": "Nigeria",
+        "address": "No 16 Admiralty Way, Lekki, Lagos",
+        "Price": "2,000,000",
+        "Amenities":{
+            "water": "Running Water", 
+          "electricity":"Electricity", 
+          "security": "Security",
+           "WardRobe" : "Wardrobe" 
+        },
+        "duration": "6 months",
+        "Date_Created": "2 days Ago",
+        "image": ["https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s"],
+        "lat": 6.448294,
+        "lng": 3.473935,
+        "User": {
+            "name": "Amanda Ngozi",
+            "Date_Of_Birth": "12-12-1900",
+            "Religion": "Islam",
+            "Ethnicity": "Igbo",
+            "lat": "",
+            "lng": "",
+            "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+            "Occupation": "Engineer"
+
+        },
+        "Agent": {
+            "name": "Mary Jane",
+            "Religion": "Christianity",
+            "Ethnicity": "English",
+            "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx3oo4rYplgCzFFJdOj-S9c-L5RE455l-CKZkP6RmnX-AsZ8gLfc02IG5elplkAGmO0xo&usqp=CAU",
+            "Date_Joined": "March 2024",
+            "reviews": "4.0",
+            "Verified_Status": "Verified",
+            "Agent_Desc": "I am Highly commited to ensure people secure a Nice Apartments, in an environment where they can grow and improve.", 
+            "Nationality": "British" ,
+            "Lives_in": "London, England",
+            "languages":"English, Spanish"
+
+        }
+
+
+    },
+    {
+        "id" : "3",
+        "placeType" : "Self-Con",
+        "ApartmentType" : "1 Room Self Contain",
+        "ApartmentDesc" : "A Room Self Contain in an Urban Location",
+        "state": "Ogun",
+        "shareStatus" : "Shared Apartment",
+        "easeRoom" : {
+            "bathroom" : 1,
+            "bedroom" : 1
+        }, 
+        "Amenities":{
+            "water": "Running Water", 
+          "electricity":"Electricity", 
+          "security": "Security",
+           "WardRobe" : "Wardrobe" 
+        },
+        "city": "Akute",
+        "country": "Nigeria",
+        "street": "Akute Road",
+        "address": "King's Way, Akute, Ogun",
+        "Price": "200,000",
+        "duration": "Yearly",
+        "Date_Created": "1 day Ago",
+        "image": ["https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg","https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://www.shutterstock.com/image-photo/interior-small-apartment-living-room-600nw-2154108011.jpg", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s", "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5jv7Cavy5y1AbVGJTpUhhx4ruiUUAUQJ99w&s"],
+        "lat": 6.671744,
+        "lng": 3.358110,
+        "User": {
+            "name": "Amanda Ngozi",
+            "Date_Of_Birth": "12-12-1900",
+            "Religion": "Islam",
+            "Ethnicity": "Igbo",
+            "lat": "",
+            "lng": "",
+            "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+            "Occupation": "Engineer"
+
+        },
+        "Agent": {
+            "name": "Mary Jane",
+            "Religion": "Christianity",
+            "Ethnicity": "Yoruba",
+            "Image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx3oo4rYplgCzFFJdOj-S9c-L5RE455l-CKZkP6RmnX-AsZ8gLfc02IG5elplkAGmO0xo&usqp=CAU",
+            "Date_Joined": "May 2024",
+            "reviews": "4.2",
+            "Verified_Status": "Verified",
+            "Agent_Desc": "I am Highly commited to ensure people secure a Nice Apartments, in an environment where they can grow and improve.",
+            "Nationality": "British" ,
+            "Lives_in": "London, England",
+            "languages":"English, Spanish"
+
+        }
+
+
+    }
+]

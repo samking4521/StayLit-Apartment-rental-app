@@ -1,0 +1,72 @@
+{
+    "Version": 5,
+    "ElasticsearchWarning": true,
+    "ResolverConfig": {
+        "project": {
+            "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+            "ConflictDetection": "VERSION"
+        },
+        "models": {
+            "TotalViews": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "UniqueViews": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "ObservePayment": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "Apartment": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "ObserveHostPayment": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "AllReviews": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "PaymentHistory": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "CardDetails": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "HostAccount": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "UserAuth": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "WishList": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "Review": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "Payment": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "User": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            },
+            "Host": {
+                "ConflictHandler": "OPTIMISTIC_CONCURRENCY",
+                "ConflictDetection": "VERSION"
+            }
+        }
+    }
+}

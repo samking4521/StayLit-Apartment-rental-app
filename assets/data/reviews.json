@@ -1,0 +1,101 @@
+[
+    {
+        "id": 1,
+        "review_star": 3,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Samuel King",
+        "userCountry": "Nigeria",
+        "userState":"Lagos",
+        "reviewCreationDate": "2024-01-01"
+
+    },
+    {
+        "id": 2,
+        "review_star": 5,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx3oo4rYplgCzFFJdOj-S9c-L5RE455l-CKZkP6RmnX-AsZ8gLfc02IG5elplkAGmO0xo&usqp=CAU",
+        "userName": "Amanda Ngozi",
+        "userCountry": "Nigeria",
+        "userState":"Ogun",
+        "reviewCreationDate": "2024-02-10"
+
+    },
+    {
+        "id": 3,
+        "review_star": 3,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Sarah Queen",
+        "userCountry": "Nigeria",
+        "userState":"Kogi",
+        "reviewCreationDate": "2024-03-09"
+
+    },
+    {
+        "id": 4,
+        "review_star": 4,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Samuel King",
+        "userCountry": "Nigeria",
+        "userState":"Lagos",
+        "reviewCreationDate": "2024-04-01"
+
+    },
+    {
+        "id": 5,
+        "review_star": 1,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Sarah Queen",
+        "userCountry": "Nigeria",
+        "userState":"Kogi",
+        "reviewCreationDate": "2024-03-01"
+
+    },
+    {
+        "id": 6,
+        "review_star": 2,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Samuel King",
+        "userCountry": "Nigeria",
+        "userState":"Lagos",
+        "reviewCreationDate": "2024-10-01"
+
+    },
+    {
+        "id": 7,
+        "review_star": 5,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQx3oo4rYplgCzFFJdOj-S9c-L5RE455l-CKZkP6RmnX-AsZ8gLfc02IG5elplkAGmO0xo&usqp=CAU",
+        "userName": "Amanda Ngozi",
+        "userCountry": "Nigeria",
+        "userState":"Ogun",
+        "reviewCreationDate": "2024-01-10"
+
+    },
+    {
+        "id": 8,
+        "review_star": 4,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Samuel King",
+        "userCountry": "Nigeria",
+        "userState":"Lagos",
+        "reviewCreationDate": "2024-01-21"
+
+    },
+    {
+        "id": 9,
+        "review_star": 2,
+        "review_desc": "Arrived early and received without problem. Super Beautiful house. Fatna and Aish very professional and kind",
+        "userImage": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQv-LjUU1QEHqP9k6nsVzHRVLsLJR364IX_OdoEYPCiQ&s",
+        "userName": "Samuel King",
+        "userCountry": "Nigeria",
+        "userState":"Lagos",
+        "reviewCreationDate": "2024-03-11"
+
+    }
+]

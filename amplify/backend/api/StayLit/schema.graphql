@@ -1,0 +1,197 @@
+type TotalViews @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  apartmentID: String
+  finalViewCount: Int
+}
+
+type UniqueViews @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userID: String
+  apartmentID: String
+}
+
+type ObservePayment @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  discount: Boolean
+  newPayment: Boolean
+  userID: String
+}
+
+enum RentStatus {
+  AVAILABLE
+  UNAVAILABLE
+  PAID
+}
+
+type Apartment @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  shareStatus: String
+  placeType: String
+  bedroom: Int
+  bathroom: Int
+  electricity: String
+  water: String
+  pop: String
+  wardrobe: String
+  lat: Float
+  lng: Float
+  address: String
+  city: String
+  state: String
+  country: String
+  apartmentTitle: String
+  apartmentDesc: String
+  price: Int
+  formattedPrice: String
+  leaseDuration: String
+  date: String
+  status: RentStatus
+  security: String
+  key: String
+  addressText: String
+  hostID: String
+  coverPhotoKey: String
+  uniqueViewCount: Int
+  moveInCost: String
+  parkingSpace: String
+  moveInCostInt: Int
+}
+
+type ObserveHostPayment @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  newPayment: Boolean
+  hostID: String
+}
+
+type AllReviews @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  starLength: Int
+  reviewDesc: String
+  date: String
+  userID: String
+  hostID: String
+  apartmentID: String
+}
+
+type PaymentHistory @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  price: Int
+  hostID: String
+  apartmentID: String
+  userID: String
+  LeotServiceFee: Int
+  HostIncome: Int
+  date: String
+  status: String
+  type: String
+  reference: String
+  User: AWSJSON
+  Host: AWSJSON
+  Apartment: AWSJSON
+  Review: AWSJSON
+  TotalViews: Int
+  UniqueViews: Int
+}
+
+type CardDetails @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  cardOwnerName: String
+  cardNumber: String
+  cardExpiryDate: String
+  cardCVV: String
+  userID: String
+  authorization: AWSJSON
+}
+
+type HostAccount @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  accountName: String
+  accountNo: String
+  bankName: String
+  hostID: String
+  bankCode: String
+  subaccountCode: String
+}
+
+enum AppStatus {
+  USER
+  HOST
+}
+
+type UserAuth @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  email: String
+  password: String
+  signInStatus: String
+  sub: String
+  userAppType: AppStatus
+}
+
+type WishList @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  userId: String
+  apartmentId: String
+}
+
+type Review @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  starLength: Int
+  reviewDesc: String
+  date: String
+  apartmentID: String
+  userID: String
+  hostID: String
+}
+
+type Payment @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  price: Int
+  hostID: String
+  apartmentID: String
+  userID: String
+  LeotServiceFee: Int
+  HostIncome: Int
+  date: String
+  status: String
+  type: String
+  reference: String
+  User: AWSJSON
+  Host: AWSJSON
+  Apartment: AWSJSON
+}
+
+type User @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  dob: String
+  state: String
+  country: String
+  email: String
+  date: String
+  sub: String
+  ethnicity: String
+  name: String
+  key: String
+  telephone: String
+  whatsapp: String
+  callingCode: String
+  countryCode: String
+}
+
+type Host @model @auth(rules: [{allow: public}]) {
+  id: ID!
+  sub: String
+  email: String
+  dob: String
+  country: String
+  state: String
+  date: String
+  ethnicity: String
+  language: String
+  name: String
+  secondLanguage: String
+  key: String
+  telephone: String
+  whatsapp: String
+  callingCode: String
+  countryCode: String
+}

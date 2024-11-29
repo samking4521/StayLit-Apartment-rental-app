@@ -1,0 +1,114 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "StayLit",
+    "serviceName": "AppSync",
+    "defaultAuthType": {
+      "mode": "API_KEY",
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ],
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "OPTIMISTIC_CONCURRENCY"
+      },
+      "perModelResolutionStrategy": [
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "TotalViews"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "UniqueViews"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "ObservePayment"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "Apartment"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "ObserveHostPayment"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "AllReviews"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "PaymentHistory"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "CardDetails"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "HostAccount"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "UserAuth"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "WishList"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "Review"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "Payment"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "User"
+        },
+        {
+          "resolutionStrategy": {
+            "type": "OPTIMISTIC_CONCURRENCY"
+          },
+          "entityName": "Host"
+        }
+      ]
+    }
+  }
+}

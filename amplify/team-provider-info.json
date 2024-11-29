@@ -1,0 +1,26 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-staylit-staging-97d11-authRole",
+      "UnauthRoleArn": "arn:aws:iam::273354658617:role/amplify-staylit-staging-97d11-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::273354658617:role/amplify-staylit-staging-97d11-authRole",
+      "Region": "eu-west-1",
+      "DeploymentBucketName": "amplify-staylit-staging-97d11-deployment",
+      "UnauthRoleName": "amplify-staylit-staging-97d11-unauthRole",
+      "StackName": "amplify-staylit-staging-97d11",
+      "StackId": "arn:aws:cloudformation:eu-west-1:273354658617:stack/amplify-staylit-staging-97d11/ded12200-9e98-11ef-9e9c-0276775beee1",
+      "AmplifyAppId": "dprbiq5suc8zs"
+    },
+    "categories": {
+      "auth": {
+        "StayLit": {}
+      },
+      "storage": {
+        "s3staylitstorage1914deba": {}
+      },
+      "api": {
+        "StayLit": {}
+      }
+    }
+  }
+}

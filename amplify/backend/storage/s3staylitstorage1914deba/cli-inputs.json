@@ -1,0 +1,14 @@
+{
+  "resourceName": "s3staylitstorage1914deba",
+  "bucketName": "staylit-storage-1914deba",
+  "policyUUID": "9b460f91",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "READ"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ]
+}
