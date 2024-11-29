@@ -8,20 +8,9 @@ A mobile application where hosts can upload and manage apartments for rent. User
 - **Users**: Users can sign up, sign in, sign out, and reset their passwords using a secure authentication system.
 - **Backend**: AWS Amplify's authentication service handles user management and authentication processes.
 
-<img src="media/signIn.png" alt="SignIn Screen" width="300"/>
-<img src="media/signUp.png" alt="SignUp Screen" width="300"/>
-  <img src="media/confirmCode.png" alt="VerifyCode Screen" width="300"/>
-
-  [Video Demo: authenticationFlow](media/authenticationScreens.mp4)
-
-
 ### 2. **Browse Listings**
 - Users can explore a variety of apartment listings posted by hosts.
 - **UX**: Listings are displayed with relevant information such as price, type, location and duration.
-
-<img src="media/ExploreScreen.png" alt="Explore Listings" width="300"/>
-<img src="media/exploreScreenMap.png" alt="Explore Listings Map" width="300"/>
-<img src="media/HostScreen.png" alt="Host Explore Screen" width="300"/>
 
 ### 3. **Filtering System**
 - Users can filter apartment listings based on:
@@ -29,11 +18,6 @@ A mobile application where hosts can upload and manage apartments for rent. User
   - **Price**: Users can set a price range to narrow their search.
   - **Type of Place**: Search for apartments by type, such as flats, duplex, etc.
   - **Amenities**: Filter apartments based on available amenities like running water, electricity, pop, security etc.
-
-  <img src="media/filterScreen.png" alt="Filter Screen" width="300"/>
-  <img src="media/searchLocation.png" alt="searchByLocation Screen" width="300"/>
-
-  [Video Demo: Filtering Apartments](media/filterScreen.mp4)
 
 ### 4. **Apartment Details**
 - Each listing has a dedicated page with detailed information about the apartment, including:
@@ -47,72 +31,39 @@ A mobile application where hosts can upload and manage apartments for rent. User
   - **Host Contact**
   - **Host Reviews**
 
-  [Video Demo: Apartment Details](media/apartmentDetailsScreen.mp4)
 
 ### 5. **Apartment Location**
 - Users can view the apartment's location on a map using **React Native Maps** and the **Google Maps API**.
 - **Route Navigation**: A built-in feature allows users to see how to get to the apartment, with real-time updates of their location.
  
- <img src="media/aptMap.png" alt="Map View with Navigation" width="300"/>
-
-  [Video Demo: Map View with Route Navigation](media/apartmentMap.mp4)
-
 ### 6. **Amenities Screen**
 - Users can browse a list of available amenities for each apartment.
-
-  <img src="media/amenities.png" alt="Amenities Screen" width="300"/>
 
 ### 7. **Review System**
 - Once an apartment is rented and paid for, users can leave reviews for the host.
 - **Review Criteria**: Star Ratings and comments are included to provide feedback.
 
-  <img src="media/reviewHost.png" alt="Review Host Screen" width="300"/>
-    <img src="media/reviewScreen.png" alt="Review Screen" width="300"/>
-
-  [Video Demo: Review Host](media/reviewHost.mp4)
-  [Video Demo: Review Screen](media/reviewScreen.mp4)
-
 ### 8. **Wishlist System**
 - Users can add apartments to their wishlist to track their favorite listings.
 - The status of apartments on the wishlist is updated (e.g., **Available**, **Unavailable**, or **Paid**).
-
-  <img src="media/wishList.png" alt="Wishlist Screen" width="300"/>
-
-  [Video Demo: WishList Screen](media/wishlistScreen.mp4)
 
 ### 9. **Payment System**
 - **Paystack Integration**: The app integrates **Paystack** to handle payments.
   - **Users**: Add and charge debit cards.
   - **Hosts**: Add bank accounts to receive funds.
 - Secure transaction handling and notifications for both parties( users and hosts ).
-<img src="media/paymentScreen.png" alt="Payment Screen" width="300"/>
-<img src="media/addCard.png" alt="Add Debit Card" width="300"/>
-<img src="media/cardDetails.png" alt="Card Details" width="300"/>
-  <img src="media/hostAddBankAcc.png" alt="add Host Bank Account" width="300"/>
-
-  [Video Demo: Add Host Bank Account](media/hostAddBankAcc.mp4)
-
-  [Video Demo: Payment Workflow](media/addPaymentCard.mp4)
 
 ### 11. **Receipt Generation & Sharing**
 - After each successful payment, a **receipt** is generated that includes key payment details such as sender name, recipent name, reference, etc
 - **Sharing**: The receipt can be shared to other apps (e.g., WhatsApp, email, etc) using the **React Native Share API**.
-  <img src="media/receipt.png" alt="Receipt" width="300"/>
-  <img src="media/shareReceipt.png" alt="Share Receipt" width="300"/>
-  
+ 
 ### 12. **Apartment Upload and Management**
 - **Hosts**: Hosts can upload new apartment listings, update existing ones, and delete listings.
 - Listings can be managed through an easy-to-use interface.
 
-  [Video Demo: Apartment Upload](media/hostUploadApartment.mp4)
-
 ### 13. **Profile Creation**
 - **Users and Hosts**: Both users and hosts can create, upload, and manage their profiles.
 - Profiles include essential details and photos to enhance the user/host experience.
-
-   <img src="media/viewProfile.png" alt="Profile View" width="300"/>
-    <img src="media/profile.png" alt="Profile Screen" width="300"/>
-     <img src="media/profileSuccess.png" alt="Profile upload success alert" width="300"/>
 
 ### 14. **Contact**
 - Users and hosts can contact each other via multiple communication options, including:
@@ -121,12 +72,8 @@ A mobile application where hosts can upload and manage apartments for rent. User
   - **Phone**
 - These features are enabled through **React Native Linking API** for navigation to the communication apps.
 
-   <img src="media/contactScreen.png" alt="Contact Screen" width="300"/>
-
 ### 15. **Switch App Modes**
 - Users can seamlessly switch between **User Mode** (Exploring and renting apartments) and **Host Mode** (uploading and managing apartment listings).
-
-  [Switch App Modes](media/switchAppMode.mp4)
 
 ## Core Technologies
 
